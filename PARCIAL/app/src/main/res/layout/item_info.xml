@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Componente reutilizável: rótulo + valor (Tom, Duração, Status, Gênero) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_bg"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/rotulo_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/texto_secundario"
+        android:textSize="10sp"
+        tools:text="TOM" />
+
+    <TextView
+        android:id="@+id/valor_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/texto_primario"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:text="Em" />
+
+</LinearLayout>

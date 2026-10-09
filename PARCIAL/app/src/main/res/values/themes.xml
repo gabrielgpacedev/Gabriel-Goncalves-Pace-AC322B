@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme._3DApp" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:colorBackground">@color/fundo</item>
+        <item name="android:windowBackground">@color/fundo</item>
+        <item name="colorSurface">@color/card</item>
+        <item name="colorPrimary">@color/destaque</item>
+        <item name="colorOnPrimary">@color/texto_sobre_destaque</item>
+        <item name="colorOnBackground">@color/texto_primario</item>
+        <item name="colorOnSurface">@color/texto_primario</item>
+    </style>
+</resources>

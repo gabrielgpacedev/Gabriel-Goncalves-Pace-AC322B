@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">3D app</string>
+
+    <!-- Tela principal -->
+    <string name="meu_repertorio">Meu repertório</string>
+    <string name="musicas_da_banda">Músicas da banda</string>
+    <string name="repertorio">REPERTÓRIO</string>
+    <plurals name="musicas_cadastradas">
+        <item quantity="one">música cadastrada</item>
+        <item quantity="other">músicas cadastradas</item>
+    </plurals>
+
+    <!-- Tela de detalhes -->
+    <string name="detalhes_da_musica">Detalhes da música</string>
+    <string name="tom">TOM</string>
+    <string name="duracao">DURAÇÃO</string>
+    <string name="status">STATUS</string>
+    <string name="genero">GÊNERO</string>
+    <string name="observacoes">Observações</string>
+    <string name="sem_observacoes">Nenhuma observação.</string>
+    <string name="valor_nao_informado">—</string>
+    <string name="status_pendente">Pendente</string>
+    <string name="status_ensaiada">Ensaiada</string>
+    <string name="marcar_como_ensaiada">Marcar como ensaiada</string>
+    <string name="marcar_como_pendente">Marcar como pendente</string>
+    <string name="musica_nao_encontrada">Música não encontrada</string>
+    <string name="duracao_formato">%1$d:%2$02d</string>
+
+    <!-- Acessibilidade -->
+    <string name="cd_fones">Fones de ouvido</string>
+    <string name="cd_nota_musical">Nota musical</string>
+    <string name="cd_abrir_detalhes">Abrir detalhes</string>
+    <string name="cd_ensaiada">Música ensaiada</string>
+</resources>
